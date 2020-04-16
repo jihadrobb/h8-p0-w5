@@ -1,7 +1,6 @@
 // Exercise 7 Hapus Simbol
 function hapusSimbol(str) {
-    var database = /[a-z0-9]+/gi;
-    var arr = str.match(database);
+    var arr = str.match(/[a-z0-9]+/gi);
     var newStr = '';
     for (let i = 0; i < arr.length; i++) {
         newStr += arr[i];

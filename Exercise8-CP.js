@@ -1,7 +1,6 @@
 // Exercise 8 Cari Pelaku
 function cariPelaku(str) {
-    var regex = /abc/g;
-    return str.match(regex).length;
+    return str.match(/abc/g).length;
   }
   
   // TEST CASES
